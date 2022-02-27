@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quintessential&family=Roboto:wght@300&display=swap');
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	.title {
+		text-align: center;
+		margin-top: 5rem;
+
+		.topic {
+			font-size: 50px;
+			font-family: 'Lobster', cursive;
+
+			.firstname {
+				color: #6200ee;
+			}
+		}
+		p {
+			font-size: 20px;
+			color: #a8aeb3;
+			text-align: center;
+			max-width: 250px;
+			font-family: 'Roboto', sans-serif;
+		}
+	}
+}
+
+.btn {
+	color: white;
+	background-color: #6200ee;
+	border-radius: 8px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	padding: 7px 15px;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	position: absolute;
+	bottom: 3rem;
+	cursor: pointer;
+}
+.image {
+	position: absolute;
+	top: 20rem;
+}
+.bottom {
+	position: absolute;
+	bottom: 0.5rem;
+	font-weight: 500;
+
+	font-family: 'Roboto', sans-serif;
+}
+.log {
+	color: #6200ee;
+	font-weight: bold;
+	display: inline-block;
+	margin: 0px 0px 0.5rem 0.2rem;
+	text-decoration: none;
+}

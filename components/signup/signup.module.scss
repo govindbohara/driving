@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quintessential&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quintessential&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Roboto:wght@500&display=swap');
+
+.heading {
+	text-decoration: none;
+	color: #000000;
+}
+.topic {
+	font-size: 30px;
+	font-family: 'Lobster', cursive;
+	margin-left: 2rem;
+	cursor: pointer;
+
+	.firstname {
+		color: #6200ee;
+	}
+}
+.img {
+	margin: 1rem;
+	// border-radius: 20px;
+	// border: 1px solid #a8aeb3;
+}
+.signup {
+	display: flex;
+
+	flex-direction: column;
+	gap: 1rem;
+}
+.name,
+.email,
+.password {
+	display: flex;
+	flex-direction: column;
+
+	margin: 0 1rem;
+	gap: 0.2rem;
+}
+.passcont {
+	display: flex;
+	align-items: center;
+
+	justify-content: space-between;
+	background-color: #f1f1f1;
+	padding: 0 0.5rem;
+	border-radius: 8px;
+}
+.input1,
+.input2,
+.input3 {
+	width: 100%;
+	padding: 0.5rem 0.5rem;
+	border-radius: 8px;
+	outline: none;
+	border: none;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+
+	background-color: #f1f1f1;
+
+	
+}
+.icon {
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.label1,
+.label2,
+.label3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+.check {
+	margin: 1rem 0 0 1rem;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+
+	.label {
+		margin-left: 0.5rem;
+	}
+
+	.spantext {
+		color: #6200ee;
+		font-weight: bold;
+	}
+}
+.btn {
+	color: white;
+	background-color: #6200ee;
+	border-radius: 8px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+
+	font-weight: bold;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	width: 90%;
+	margin: 1rem auto auto auto;
+	padding: 0.5rem 0.8rem;
+}
