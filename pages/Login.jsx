@@ -19,7 +19,7 @@ const Login = () => {
 						src={'/photos/login.svg'}
 						alt="Car"
 						width={'450px'}
-						height={'150px'}
+						height={'190px'}
 					/>
 				</div>
 				<div className={styles.header}>
