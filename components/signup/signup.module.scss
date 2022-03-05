@@ -8,9 +8,10 @@
 	color: #000000;
 }
 .topic {
-	font-size: 30px;
+	font-size: 35px;
 	font-family: 'Lobster', cursive;
-	margin-left: 2rem;
+	text-align: center;
+	margin: 1rem 0 0rem 0;
 	cursor: pointer;
 
 	.firstname {
@@ -96,6 +97,6 @@
 	border: none;
 	cursor: pointer;
 	width: 90%;
-	margin: 1rem auto auto auto;
+	margin: auto auto auto auto;
 	padding: 0.5rem 0.8rem;
 }

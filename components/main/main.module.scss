@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quintessential&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quintessential&family=Roboto:wght@300;500&display=swap');
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0.5rem;
+}
+.heading {
+	margin-left: 0.5rem;
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+}
+.topic {
+	font-size: 35px;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	margin: 1rem 0 0.3rem 0;
+	cursor: pointer;
+	.firstname {
+		color: #6200ee;
+	}
+}

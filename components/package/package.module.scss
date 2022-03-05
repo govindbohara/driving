@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Roboto:wght@300;500&display=swap');
+.topic {
+	font-size: 35px;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	margin: 1rem 0 0rem 0;
+	cursor: pointer;
+	.firstname {
+		color: #6200ee;
+	}
+}
+.heading {
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+}
+
+.head {
+	font-size: 28px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.cont {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	background-color: #f9f9f9;
+	margin: 1.5rem 0.5rem 0 0.5rem;
+	padding: 0.9rem;
+	gap: 5.5rem;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	border-radius: 10px;
+}
+.details {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
+}
+.detailname {
+	font-size: 16px;
+}
+.detailprice {
+	font-size: 12px;
+}
+.subbtn {
+	border: none;
+	outline: none;
+	background-color: #6200ee;
+	padding: 8px 1.5rem;
+	color: #ffffff;
+	font-size: 14px;
+	border-radius: 10px;
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}

@@ -13,10 +13,11 @@
 	justify-content: center;
 }
 .topic {
-	font-size: 30px;
+	font-size: 35px;
 	font-family: 'Lobster', cursive;
-	margin-left: 2.6rem;
-
+	text-align: center;
+	margin: 1rem 0 0.3rem 0;
+	cursor: pointer;
 	.firstname {
 		color: #6200ee;
 	}
@@ -115,6 +116,10 @@
 	cursor: pointer;
 
 	padding: 0.8rem 8.5rem;
+}
+.logtext {
+	text-decoration: none;
+	color: #f1f1f1;
 }
 .signup {
 	font-size: 15px;
