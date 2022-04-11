@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quintessential&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+.topic {
+	font-size: 35px;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	margin: 1rem 0 0rem 0;
+	cursor: pointer;
+	.firstname {
+		color: #6200ee;
+	}
+}
+.heading {
+	text-decoration: none;
+	color: #000000;
+	cursor: pointer;
+}
+.head {
+	text-align: center;
+	font-family: 'PT Serif', serif;
+	font-family: 'Roboto', sans-serif;
+}
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	border-top: 1px solid #000000;
+	position: fixed;
+	bottom: 0rem;
+	width: 100%;
+	z-index: 100;
+	padding: 1rem 0 0.6rem 0;
+}
+.icn {
+	margin: 0.3rem 0;
+	font-size: 1.5rem;
+	cursor: pointer;
+	// color: #6200ee;
+	// background-color: none;
+}

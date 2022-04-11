@@ -20,6 +20,7 @@
 	font-family: 'Roboto', sans-serif;
 	font-weight: bolder;
 	text-align: center;
+	text-transform: capitalize;
 }
 
 .cont {
@@ -57,4 +58,45 @@
 	font-family: 'PT Serif', serif;
 	font-family: 'Roboto', sans-serif;
 	cursor: pointer;
+}
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	border-top: 1px solid #000000;
+	position: fixed;
+	bottom: 0rem;
+	width: 100%;
+	padding: 1rem 0 0.6rem 0;
+	z-index: 10;
+	background-color: #ffffff;
+}
+.icn {
+	margin: 0.3rem 0;
+	font-size: 1.5rem;
+	cursor: pointer;
+	// color: #6200ee;
+	// background-color: none;
+}
+// .packcont {
+// 	margin-top: 1rem;
+// }
+.category {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	gap: 2rem;
+	:active {
+		transform: scaleY(-1px);
+	}
+}
+.categoryicn {
+	border-radius: 7px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 0.5rem;
 }

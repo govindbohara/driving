@@ -80,7 +80,7 @@ const Login = () => {
 						</Link>
 					</div>
 					<button className={styles.btn} type="submit">
-						login
+						Login
 						{/* <Link href={'/Home'}>Login</Link> */}
 					</button>
 				</form>

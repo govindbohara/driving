@@ -28,10 +28,9 @@ const SignUp = () => {
 		try {
 			await axios.post('http://localhost:4000/users/signup', json);
 
-			termsAccepted === true || toast.success('Signed up successfull.');
-			// toast.success('Signed up successfull.');
-			toast.error('Please accept the terms and conditions');
-			router.push('/Login');
+			termsAccepted === false
+				? toast.error('Please accept the terms and conditions')
+				: toast.success('Signed up successfully.') && router.push('/Login');
 		} catch (error) {
 			toast.error(error.response.data.message);
 		}

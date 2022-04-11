@@ -23,3 +23,21 @@
 		color: #6200ee;
 	}
 }
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	border-top: 1px solid #000000;
+	position: fixed;
+	bottom: 0rem;
+	width: 100%;
+	padding: 1rem 0 0.6rem 0;
+}
+.icn {
+	margin: 0.3rem 0;
+	font-size: 1.5rem;
+	cursor: pointer;
+	// color: #6200ee;
+	// background-color: none;
+}

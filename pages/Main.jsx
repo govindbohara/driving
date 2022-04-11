@@ -8,9 +8,7 @@ const Main = () => {
 				<h1 className={styles.topic}>
 					<span className={styles.firstname}>Easy</span>drive
 				</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, nisi?
-				</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
 			</div>
 			<div className={styles.image}>
 				<Image src={'/photos/car.svg'} alt="Car" width={'600px'} height={'400px'} />
